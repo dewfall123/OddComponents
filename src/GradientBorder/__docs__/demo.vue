@@ -1,20 +1,12 @@
 <script setup>
 import { ref } from 'vue';
-import MyButton from 'useless-components';
+import { GradientBorder } from 'useless-components';
 
-const count = ref(0);
-function onClick() {
-  count.value++;
-}
 </script>
 
 <template>
   <div>
-    <p>
-      <span class="">点击次数:</span>
-      <span>{{ count }}</span>
-    </p>
-    <MyButton @click="onClick">count++</MyButton>
+    <GradientBorder :border-radius="10" ></GradientBorder>
   </div>
 </template>
 
