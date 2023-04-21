@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<{
 </script>
 
 <template>
-  <button>
-    <slot>{{props.text}}</slot>
-  </button>
+  <div class=" inline-block bg-red">
+    {{text}}
+  </div>
 </template>

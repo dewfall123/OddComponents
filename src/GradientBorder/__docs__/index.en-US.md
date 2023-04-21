@@ -12,4 +12,4 @@ This is a button component!
 </demo>
 
 
-<API src="../button.vue" lang="en"></API>
+<API src="../GradientBorder.vue" lang="en"></API>

@@ -9,9 +9,9 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, './src/index.ts'),
-      name: 'tets',
+      name: 'useless-components',
       // the proper extensions will be added
-      fileName: 'tets',
+      fileName: 'useless-components',
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

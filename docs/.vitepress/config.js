@@ -8,16 +8,16 @@ import { resolve } from 'path';
 export default defineConfig({
   lang: 'zh-CN',
   lastUpdated: true,
-  base: process.env.NODE_ENV === 'production' ? '/tets' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/useless-components' : '/',
   locales: {
     '/': {
       lang: 'zh-CN',
-      title: 'tets',
+      title: 'useless-components',
       description: '',
     },
     '/en/': {
       lang: 'en-US',
-      title: 'tets',
+      title: 'useless-components',
       description: '',
     },
   },
@@ -34,7 +34,7 @@ export default defineConfig({
     sidebar,
     algolia: {},
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/dewfall123/tets' },
+      { icon: 'github', link: 'https://github.com/dewfall123/useless-components' },
     ],
   },
   vue: {},
@@ -42,7 +42,7 @@ export default defineConfig({
     plugins: [genTemp(), genApiDoc()],
     resolve: {
       alias: {
-        'tets': resolve('./src/'),
+        'useless-components': resolve('./src/'),
       },
     },
   },

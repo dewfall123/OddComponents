@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue';
-import MyButton from 'tets';
+import MyButton from 'useless-components';
 
 const count = ref(0);
 function onClick() {

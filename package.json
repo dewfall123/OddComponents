@@ -1,15 +1,15 @@
 {
-  "name": "tets",
+  "name": "useless-components",
   "version": "0.0.0",
   "description": "",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "main": "./dist/tets.umd.cjs",
-  "module": "./dist/tets.js",
+  "main": "./dist/useless-components.umd.cjs",
+  "module": "./dist/useless-components.js",
   "exports": {
     ".": {
-      "import": "./dist/tets.js",
-      "require": "./dist/tets.umd.cjs"
+      "import": "./dist/useless-components.js",
+      "require": "./dist/useless-components.umd.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },
@@ -30,23 +30,26 @@
   "license": "MIT",
   "devDependencies": {
     "@ruabick/md-demo-plugins": "latest",
+    "@ruabick/vite-plugin-gen-api-doc": "latest",
     "@ruabick/vite-plugin-gen-temp": "latest",
     "@ruabick/vitepress-demo-block": "latest",
-    "@ruabick/vite-plugin-gen-api-doc": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.33.1",
+    "@typescript-eslint/parser": "^5.33.1",
     "@vitejs/plugin-vue": "^3.0.1",
+    "autoprefixer": "^10.4.14",
     "cross-env": "^7.0.3",
     "eslint": "^8.20.0",
+    "eslint-define-config": "^1.6.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
     "gh-pages": "^4.0.0",
     "np": "^7.6.2",
+    "postcss": "^8.4.23",
     "prettier": "^2.7.1",
+    "tailwindcss": "^3.3.1",
     "vite": "latest",
     "vite-plugin-dts": "^1.4.0",
     "vitepress": "latest",
-    "vue": "latest",
-    "@typescript-eslint/eslint-plugin": "^5.33.1",
-    "@typescript-eslint/parser": "^5.33.1",
-    "eslint-define-config": "^1.6.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-node": "^11.1.0"
+    "vue": "latest"
   }
 }

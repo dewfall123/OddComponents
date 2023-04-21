@@ -32,7 +32,7 @@
             "@/*": [
                 "src/*"
             ],
-            "tets": [
+            "useless-components": [
                 "src/index.ts"
             ]
         }

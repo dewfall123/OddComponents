@@ -12,4 +12,4 @@ map:
   desc="这是一个 Demo 渲染示例">
 </demo>
 
-<API src="../button.vue" lang="zh"></API>
+<API src="../GradientBorder.vue" lang="zh"></API>

@@ -3,7 +3,7 @@ export const sidebar = {
     {
       text: 'Guide',
       items: [
-        { text: 'Button', link: '/en/' },
+        { text: 'gradient-loading', link: '/en/' },
       ],
     },
   ],
@@ -11,7 +11,7 @@ export const sidebar = {
     {
       text: '介绍',
       items: [
-        { text: '按钮', link: '/' },
+        { text: 'gradient-loading', link: '/' },
       ],
     },
   ],
